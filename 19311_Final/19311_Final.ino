@@ -93,6 +93,6 @@ void loop()
   else {
     Serial.println("Problem updating channel. HTTP error code " + String(x));
   }
-  delay(5000); // Wait 20 seconds to update the channel again
+  delay(5000); 
 
 }
